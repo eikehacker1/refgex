@@ -1,0 +1,5 @@
+regex_patterns:
+  - nome: API_TOKEN
+    regex: '(?:\\s|=|:|"|^)AKC[a-zA-Z0-9]{10,}'
+    nome: EIKE 
+    regex: 'olaola'
