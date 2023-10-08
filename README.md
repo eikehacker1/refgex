@@ -9,7 +9,19 @@ And to use it you need to have Language GO installed on your machine:
 ```bash
 sudo apt update -y && sudo apt upgrade -y ; sudo apt install golang
 ```
-agoa é só instalar a ferramenta:
+install tool:
 ```bash
 go install -v github.com/eikehacker1/refgex@latest 
+```
+move to bin
+```bash
+cp ~/go/bin/refgex /usr/bin
+```
+use:
+```bash
+cat file(.js,.html.txt[...]) | refgex 
+```
+ou:
+```bash
+refgex -l file.txt 
 ```
