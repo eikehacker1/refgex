@@ -13,7 +13,7 @@ install tool:
 ```bash
 go install -v github.com/eikehacker1/refgex@latest 
 ```
-move to bin
+move to binary 
 ```bash
 cp ~/go/bin/refgex /usr/bin
 ```
