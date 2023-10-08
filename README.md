@@ -9,3 +9,7 @@ And to use it you need to have Language GO installed on your machine:
 ```bash
 sudo apt update -y && sudo apt upgrade -y ; sudo apt install golang
 ```
+agoa é só instalar a ferramenta:
+```bash
+go install -v github.com/eikehacker1/refgex@latest 
+```
