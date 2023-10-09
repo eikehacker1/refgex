@@ -25,3 +25,7 @@ ou:
 ```bash
 refgex -l file.txt 
 ```
+
+### the file with regex is at:
+~/.regex/regex.yaml
+#### You can add more regex besides dis downloaded automatically from my github
