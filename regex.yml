@@ -39,8 +39,6 @@ regex_patterns:
     regex: 'sqOatp-[0-9A-Za-z\\-_]{22}'
   - nome: Stripe API Key
     regex: '(?:r|s)k_live_[0-9a-zA-Z]{24}'
-  - nome: Slack WEBHK
-    rgex: https://hooks.slack.com/services/T[a-zA-Z0-9_]{10}/B[a-zA-Z0-9_]{10}/[a-zA-Z0-9_]{24} 
   - nome: slack Token
     regex: 'xox[baprs]-([0-9a-zA-Z]{10,48})?'
   - nome: Picatic API KEy
